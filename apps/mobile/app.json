@@ -1,0 +1,41 @@
+
+{
+  "expo": {
+    "name": "SENDIT",
+    "slug": "sendit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/sendit-icon.png",
+    "scheme": "sendit",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "icon": "./assets/images/sendit-icon.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0F2A",
+        "foregroundImage": "./assets/images/sendit-icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "server",
+      "favicon": "./assets/images/sendit-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0B0F2A",
+          "image": "./assets/images/sendit-logo.png",
+          "imageWidth": 260
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
